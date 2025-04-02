@@ -9,7 +9,7 @@ public class Ex19 {
         String nome, nomenovo="";
         int idade = 0, idade1 = 200;
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.print("Digite o nome da pessoa: ");
             nome = ler.nextLine();
             System.out.print("Digite a idade da pessoa: ");
@@ -24,4 +24,3 @@ public class Ex19 {
         System.out.println("A pessoa mais nova é: " + nomenovo);
 }
 }
-
