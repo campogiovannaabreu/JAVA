@@ -16,7 +16,7 @@ public class Ex41  {
         double precodokg = 12.00;
         double totalapagar = peso * precodokg;
         
-        System.out.printf("O valor a pagar é: R$%.2f%n", totalapagar);
+        System.out.printf("O valor a pagar é: R$", totalapagar);
     }
 }
 
