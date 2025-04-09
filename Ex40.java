@@ -18,6 +18,6 @@ public class Ex40 {
         
         double litros = pago / precodolitro;
         
-        System.out.printf("Você conseguiu colocar %.2f litros no tanque.%n", litros);
+        System.out.printf("Você conseguiu colocar litros no tanque:", litros);
     }
 }
