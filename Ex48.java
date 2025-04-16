@@ -8,16 +8,16 @@ public class Ex48 {
     
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        double[] valores = new double[5];
+        double[] v = new double[10];
         double soma = 0;
 
-        for (int i = 0; i < valores.length; i++) {
+        for (int i = 0; i < v.length; i++) {
             System.out.print("Digite o valor " + (i + 1) + ": ");
-            valores[i] = ler.nextDouble();
+            v[i] = ler.nextDouble();
         }
 
-        for (int i = 0; i < valores.length; i += 2) {
-            soma += valores[i];
+        for (int i = 0; i < v.length; i += 2) {
+            soma += v[i];
         }
 
         System.out.println("A soma dos valores nas posições ímpares é: " + soma);
