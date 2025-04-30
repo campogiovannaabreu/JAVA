@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ex001
 {
 	public static void main(String[] args) {
-	    double numero;
+	    int numero;
 	    Scanner ler = new Scanner (System.in);
 	    
 		System.out.println("Informe um número:");
